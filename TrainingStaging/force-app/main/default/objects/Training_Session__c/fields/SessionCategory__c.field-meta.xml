@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SessionCategory__c</fullName>
+    <label>SessionCategory</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Hands-onWorkshop</fullName>
+                <default>false</default>
+                <label>1. Hands-onWorkshop</label>
+            </value>
+            <value>
+                <fullName>2. ClassroomTraining</fullName>
+                <default>false</default>
+                <label>2. ClassroomTraining</label>
+            </value>
+            <value>
+                <fullName>3. Bootcamp</fullName>
+                <default>false</default>
+                <label>3. Bootcamp</label>
+            </value>
+            <value>
+                <fullName>4. Group Activity</fullName>
+                <default>false</default>
+                <label>4. Group Activity</label>
+            </value>
+            <value>
+                <fullName>5. Live Webinar</fullName>
+                <default>false</default>
+                <label>5. Live Webinar</label>
+            </value>
+            <value>
+                <fullName>6. Recorded Webinar</fullName>
+                <default>false</default>
+                <label>6. Recorded Webinar</label>
+            </value>
+            <value>
+                <fullName>7. Expert Talk</fullName>
+                <default>false</default>
+                <label>7. Expert Talk</label>
+            </value>
+            <value>
+                <fullName>8. ProductDemo</fullName>
+                <default>false</default>
+                <label>8. ProductDemo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

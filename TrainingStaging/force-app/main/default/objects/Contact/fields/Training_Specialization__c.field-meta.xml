@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Specialization__c</fullName>
+    <description>Specialization in Service. (add in Trainer Layout)</description>
+    <label>Training  Specialization</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Technical Training</fullName>
+                <default>false</default>
+                <label>1. Technical Training</label>
+            </value>
+            <value>
+                <fullName>2. Soft Skills Training</fullName>
+                <default>false</default>
+                <label>2. Soft Skills Training</label>
+            </value>
+            <value>
+                <fullName>3. Corporate Training</fullName>
+                <default>false</default>
+                <label>3. Corporate Training</label>
+            </value>
+            <value>
+                <fullName>4. Certification Training</fullName>
+                <default>false</default>
+                <label>4. Certification Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
